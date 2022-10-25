@@ -1,0 +1,9 @@
+// Setup
+function testStrict(val) {
+  if (7 === val) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testStrict(10);
